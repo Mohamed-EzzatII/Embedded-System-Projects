@@ -1,0 +1,141 @@
+
+//		if(sec_unit==10)
+//		{
+//			sec_unit=0;
+//			PORTA=0b00000001;
+//			PORTC=sec_unit;
+//			_delay_ms(3);
+//
+//			sec_tenth++;
+//			PORTA=0b00000010;
+//			PORTC=sec_tenth;
+//			_delay_ms(3);
+//		}
+//
+//		else
+//		{
+//			PORTA=0b00000001;
+//			PORTC=sec_unit;
+//			_delay_ms(3);
+//		}
+//		PORTA=0b00111111;
+//
+//		if(sec_tenth==6)
+//		{
+//			sec_tenth=0;
+//			PORTA=0b00000010;
+//			PORTC=sec_tenth;
+//			_delay_ms(3);
+//
+//			min_unit++;
+//			PORTA=0b00000100;
+//			PORTC=min_unit;
+//			_delay_ms(3);
+//		}
+//		else
+//		{
+//			PORTA=0b00000010;
+//			PORTC=sec_tenth;
+//			_delay_ms(3);
+//		}
+//		PORTA=0b00111111;
+//
+//		if(min_unit==10)
+//		{
+//			min_unit=0;
+//			PORTA=0b00000100;
+//			PORTC=min_unit;
+//			_delay_ms(3);
+//
+//			min_tenth++;
+//			PORTA=0b00001000;
+//			PORTC=min_tenth;
+//			_delay_ms(3);
+//		}
+//
+//		else
+//		{
+//			PORTA=0b00000100;
+//			PORTC=min_unit;
+//			_delay_ms(3);
+//		}
+//		PORTA=0b00111111;
+//
+//		if(min_tenth==6)
+//		{
+//			min_tenth=0;
+//			PORTA=0b00001000;
+//			PORTC=min_tenth;
+//			_delay_ms(3);
+//
+//
+//			hr_unit++;
+//			PORTA=0b00010000;
+//			PORTC=hr_unit;
+//			_delay_ms(3);
+//		}
+//		else
+//		{
+//			PORTA=0b00001000;
+//			PORTC=min_tenth;
+//			_delay_ms(3);
+//		}
+//		PORTA=0b00111111;
+//
+//		if(hr_unit==10)
+//		{
+//			hr_unit=0;
+//			PORTA=0b00010000;
+//			PORTC=hr_unit;
+//			_delay_ms(3);
+//
+//			hr_tenth++;
+//			PORTA=0b00100000;
+//			PORTC=hr_tenth;
+//			_delay_ms(3);
+//		}
+//		else
+//		{
+//			PORTA=0b00010000;
+//			PORTC=hr_unit;
+//			_delay_ms(3);
+//		}
+//		PORTA=0b00111111;
+//
+//		if(hr_tenth==6)
+//		{
+//			hr_tenth=hr_unit=min_unit=min_tenth=sec_unit=sec_tenth= 0;
+//			PORTA=0b00100000;
+//			PORTC=hr_tenth;
+//			_delay_ms(3);
+//
+//			PORTA=0b00010000;
+//			PORTC=hr_unit;
+//			_delay_ms(3);
+//
+//			PORTA=0b00001000;
+//			PORTC=min_tenth;
+//			_delay_ms(3);
+//
+//			PORTA=0b00000100;
+//			PORTC=min_unit;
+//			_delay_ms(3);
+//
+//			PORTA=0b00000001;
+//			PORTC=sec_unit;
+//			_delay_ms(3);
+//
+//			PORTA=0b00000010;
+//			PORTC=sec_tenth;
+//			_delay_ms(3);
+//
+//
+//			PORTA=0b00111111;
+//		}
+//		else
+//		{
+//			PORTA=0b00100000;
+//			PORTC=hr_tenth;
+//			_delay_ms(3);
+//		}
+//		PORTA=0b00111111;
