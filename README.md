@@ -1,0 +1,6 @@
+- This is a project of a clock 
+- A simple training on timers and GPIO
+- This code is not a layered model-based, but I want to save it like that way because it is my first ever embedded systems project
+- The project works by 6 seven segments using the multiplexing technique , and it counts the time for every second.
+- It includes buttons to reset, hold, continue counting time
+- FEEL FREE TO COPY IT
